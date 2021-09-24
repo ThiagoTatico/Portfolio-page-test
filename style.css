@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  background-image: url('https://imgur.com/VFi2scX.jpg');
+  font-family: Poppins, sans-serif;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.container {
+  margin: 64px;
+  padding: 64px;
+  background: #ECF4FF;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  border-radius: 20px;
+  color: black;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil_foto {
+  border-radius: 460px;
+  max-height: 170px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 17px;
+}
+
+.titulo h1 {
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(236.85deg, #375B86 27.26%, #00CED1 96.03%);
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  margin-top: 32px;
+  padding: 32px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: list-item;
+  background: linear-gradient(236.85deg, #375B86 27.26%, #00CED1 96.03%);
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  margin: 25px;
+  padding: 32px;
+  justify-content: space-around;
+  align-items: center;
+}
